@@ -51,11 +51,4 @@ def upload_image(data: schemas.upload_image = Depends(), file: UploadFile = File
 @app.post('/test_schema',status_code=status.HTTP_200_OK)
 def test_schema(payload : schemas.upload_image):
     print(payload)
-<<<<<<< HEAD
     return payload
-
-
-
-=======
-    return payload
->>>>>>> main
