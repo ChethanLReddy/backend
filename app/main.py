@@ -52,3 +52,6 @@ def upload_image(data: schemas.upload_image = Depends(), file: UploadFile = File
 def test_schema(payload : schemas.upload_image):
     print(payload)
     return payload
+
+
+
